@@ -1,24 +1,24 @@
-#项目任务
-1.代码表征球面波，给定焦距，波长，口径，采样，生成菲涅尔透镜相位分布；
-2.代码实现夫琅禾费衍射，菲涅尔衍射，角谱衍射，计算透镜不同深度的PSF强度分布。
+#Project Task
+1. The code represents the spherical wave, given the focal length, wavelength, aperture, sampling, and generates the Fresnel lens phase distribution;
+2. The code realizes Fraunhofer diffraction, Fresnel diffraction, angular spectrum diffraction, and calculates the PSF intensity distribution of the lens at different depths.
 
-#程序结构
-“main_PSF”主程序，代码表征球面波，生成菲涅尔透镜相位分布，调用衍射函数求出PSF；
-“propagation_PSF”函数程序，包含菲涅尔衍射、角谱衍射、夫琅禾费衍射三种衍射算法。
+#Program structure
+"Main_PSF" main program, the code characterizes the spherical wave, generates the Fresnel lens phase distribution, and calls the diffraction function to obtain the PSF;
+The "propagation_PSF" function program contains three diffraction algorithms: Fresnel diffraction, angular spectrum diffraction, and Fraunhofer diffraction.
 
-#程序思路
-    点光源发出球面波，计算得到菲涅尔透镜前表面复振幅U0，透过菲涅尔透镜后得到后表面复振幅U1，
-调用衍射函数，得到不同距离处PSF强度分布。
+#Program ideas
+     The point light source emits a spherical wave, the complex amplitude U0 on the front surface of the Fresnel lens is calculated, and the complex amplitude U1 on the back surface is obtained after passing through the Fresnel lens.
+Call the diffraction function to get the PSF intensity distribution at different distances.
 
-#使用方法
-运行主程序
+#Instructions
+Run the main program
 
-#作者
-陈伟
+#Author
+Wei Chen
 
-#开发工具及安装环境
-MATLAB R2020a  
+#Development tools and installation environment
+MATLAB R2020a
 window10
 
-#时间
-2020年10月14日21:03:50
+#time
+October 14, 2020 21:03:50
